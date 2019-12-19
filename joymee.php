@@ -1,30 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="zxx">
 
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Cal Cheese</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- <link rel="manifest" href="site.webmanifest"> -->
-    <!-- <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png"> -->
-    <!-- Place favicon.ico in the root directory -->
-
-    <!-- CSS here -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/themify-icons.css">
-    <link rel="stylesheet" href="css/nice-select.css">
-    <link rel="stylesheet" href="css/flaticon.css">
-    <link rel="stylesheet" href="css/animate.css">
-    <link rel="stylesheet" href="css/slicknav.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
-</head>
+<?php include('head.php'); ?>
 
 <body>
     <!--[if lte IE 9]>
@@ -32,63 +9,13 @@
         <![endif]-->
 
     <!-- header-start -->
-    <header>
-        <div class="header-area ">
-            <div id="sticky-header" class="main-header-area white-bg">
-                <div class="container-fluid p-0">
-                    <div class="row align-items-center justify-content-between no-gutters">
-                        <div class="col-xl-2 col-lg-2">
-                            <div class="logo-img">
-                                <a href="index.html">
-                                    <img src="img/logo1.png" alt="">
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-xl-7 col-lg-7">
-                            <div class="main-menu  d-none d-lg-block">
-                                <nav>
-                                    <ul id="navigation">
-                                        <li><a class="active" href="index.html">About</a></li>
-                                        <li><a href="about.html">Our Brands</a></li>
-                                        <li><a href="project.html">Business Relations</a></li>
-                                        <li><a href="service.html">CSR</a></li>
-
-                                        <li><a href="#">Career <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="blog.html">blog</a></li>
-                                                <li><a href="single-blog.html">single-blog</a></li>
-                                            </ul>
-                                        </li>
-                                        <li><a href="#">Media <i class="ti-angle-down"></i></a>
-                                            <ul class="submenu">
-                                                <li><a href="project-details.html">project-details</a></li>
-                                                <li><a href="elements.html">elements</a></li>
-                                            </ul>
-                                        </li>
-                                        <!-- <li><a href="contact.html">Contact</a></li> -->
-                                    </ul>
-                                </nav>
-                            </div>
-                        </div>
-                        <!-- <div class="col-xl-3 col-lg-3 d-none d-lg-block">
-                            <div class="get_in_tauch">
-                                <a href="#" class="boxed-btn">GET IN TOUCH</a>
-                            </div>
-                        </div> -->
-                        <div class="col-12">
-                            <div class="mobile_menu d-block d-lg-none"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </header>
+    <?php include('header.php'); ?>
     <!-- header-end -->
 
     <!-- slider_area_start -->
     <div class="slider_area">
         <div class="slider_active owl-carousel">
-            <div class="single_slider overlay2 d-flex align-items-center justify-content-center slider_bg_1" style="background-image: url(img/banner-new/Cal-cheese.jpg);">
+            <div class="single_slider overlay2 d-flex align-items-center justify-content-center slider_bg_1" style="background-image: url(img/banner-new/Choki-choki-cocomilk.jpg);">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-12">
@@ -147,7 +74,7 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="section_title text-center mb-95">
-                        <span class="sub_heading">Cal Chese</span>
+                        <span class="sub_heading">Joymee</span>
                         <h3>TV Commercials</h3>
                     </div>
                 </div>
@@ -159,15 +86,41 @@
                             <!-- <img src="img/dream/1.png" alt=""> -->
                             <video width="100%" height="240" controls="">
                                 <source
-                                    src="http://inbiscoindia.com/wp-content/uploads/2017/11/CALCHEESE_01.mp4"
+                                    src="http://inbiscoindia.com/wp-content/uploads/2017/11/Joyme_20sec_english.mp4"
                                     type="video/mp4">
                             </video>
                         </div>
-                        <!-- <h3>Interior</h3>
-                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                            aliqua quis ipsum suspendisse.</p> -->
                     </div>
                 </div>
+                <!-- <div class="col-xl-4 col-md-4">
+                    <div class="single_dream text-center">
+                        <div class="thumb">
+                            <img src="img/dream/2.png" alt="">
+                            <video width="100%" height="240" controls="">
+                                <source
+                                    src="http://inbiscoindia.com/wp-content/uploads/2017/11/KOPIKO-Mysore-Bike-Winner.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Exterior</h3>
+                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua quis ipsum suspendisse.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4">
+                    <div class="single_dream text-center">
+                        <div class="thumb">
+                            <img src="img/dream/3.png" alt="">
+                            <video width="100%" height="240" controls="">
+                                <source src="http://inbiscoindia.com/wp-content/uploads/2017/11/KOPIKO_01.mp4"
+                                    type="video/mp4">
+                            </video>
+                        </div>
+                        <h3>Bridge</h3>
+                        <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                            aliqua quis ipsum suspendisse.</p>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -349,121 +302,7 @@
     <!-- messege_area_end -->
 
     <!-- footer_start -->
-    <footer class="footer footer_bg">
-        <div class="footer_top">
-            <div class="container-fluid p-0">
-                <div class="row no-gutters ">
-                    <div class="col-xl-3 col-12 col-md-4">
-                        <div class="footer_widget">
-                            <div class="footer_logo">
-                                <a href="index.html">
-                                    <img src="img/footer-logo1.png" alt="">
-                                </a>
-                            </div>
-                            <ul class="social_links">
-                                <li>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-instagram"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-9 col-12 col-md-8">
-                        <!-- <div class="footer_header d-flex justify-content-between">
-                            <div class="footer_header_left">
-                                <h3>Do youn have any project or Query ?</h3>
-                                <p>Consectetur adipiscing elit, sed do eiusmod tempor incididunt. </p>
-                            </div>
-                            <div class="footer_btn">
-                                <a href="#" class="boxed-btn2">Contact Us</a>
-                            </div>
-                        </div> -->
-                        <div class="row">
-                            <div class="col-xl-8 col-12 col-md-12">
-                                <div class="row">
-                                    <div class="col-xl-4 col-12 col-md-4">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_heading">
-                                                About
-                                            </h3>
-                                            <ul class="quick_links">
-                                                <li><a href="#">Our Values</a></li>
-                                                <li><a href="#">Vison & Purpose</a></li>
-                                                <li><a href="#">Our Presence</a></li>
-                                                <li><a href="#">Awards</a></li>
-                                                <li><a href="#">Global Group</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-12 col-md-4">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_heading">
-                                                Our Brands
-                                            </h3>
-                                            <ul class="quick_links">
-                                                <li><a href="#">Kopiko</a></li>
-                                                <li><a href="#">Juizy Milk</a></li>
-                                                <li><a href="#">Choki Choki</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-12 col-md-4 ">
-                                        <div class="footer_widget">
-                                            <h3 class="footer_heading">
-                                                Business Relations
-                                            </h3>
-                                            <ul class="quick_links">
-                                                <li><a href="#">Superior </a></li>
-                                                <li><a href="#"> Community</a></li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer_copy_right">
-            <!-- <p>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p> -->
-        </div>
-    </footer>
-    <!-- footer_end -->
-
-
-    <!-- JS here -->
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-    <script src="js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/isotope.pkgd.min.js"></script>
-    <script src="js/ajax-form.js"></script>
-    <script src="js/waypoints.min.js"></script>
-    <script src="js/jquery.counterup.min.js"></script>
-    <script src="js/imagesloaded.pkgd.min.js"></script>
-    <script src="js/scrollIt.js"></script>
-    <script src="js/jquery.scrollUp.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <script src="js/nice-select.min.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
-    <script src="js/jquery.magnific-popup.min.js"></script>
-    <script src="js/plugins.js"></script>
-
-    <!--contact js-->
-    <script src="js/contact.js"></script>
-    <script src="js/jquery.ajaxchimp.min.js"></script>
-    <script src="js/jquery.form.js"></script>
-    <script src="js/jquery.validate.min.js"></script>
-    <script src="js/mail-script.js"></script>
-
-    <script src="js/main.js"></script>
+    <?php include('footer.php'); ?>
 
 </body>
 
