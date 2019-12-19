@@ -55,12 +55,12 @@
                                                 Our Brands
                                             </h3>
                                             <ul class="quick_links">
-                                                <li><a href="#">Kopiko</a></li>
-                                                <li><a href="#">Juizy Milk</a></li>
-                                                <li><a href="#">Choki Choki</a></li>
-                                                <li><a href="#">Joymee</a></li>
-                                                <li><a href="#">CalCheese</a></li>
-                                                <li><a href="#">Danisa</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/kopiko.php">Kopiko</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/juizy-milk.php">Juizy Milk</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/choki-choki.php">Choki Choki</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/joymee.php">Joymee</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/cal-cheese.php">CalCheese</a></li>
+                                                <li><a href="http://inbiscoindia.com/brand/danisa.php">Danisa</a></li>
                                             </ul>
                                         </div>
                                     </div>
